@@ -1,0 +1,1 @@
+// Handles communication with backend via Axios or Fetch.

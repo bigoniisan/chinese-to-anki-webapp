@@ -1,0 +1,1 @@
+# Converts Chinese characters to Pinyin.

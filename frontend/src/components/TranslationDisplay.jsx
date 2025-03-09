@@ -1,0 +1,1 @@
+// Shows translations and pinyin.

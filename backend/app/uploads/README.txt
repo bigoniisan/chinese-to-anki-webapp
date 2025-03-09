@@ -1,0 +1,1 @@
+# This folder is for temporarily storing uploaded text files for processing.

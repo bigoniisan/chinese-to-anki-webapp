@@ -1,0 +1,10 @@
+# Lists Python dependencies (FastAPI/Flask, jieba, pypinyin, genanki).
+
+fastapi
+uvicorn[standard]
+python-multipart
+jieba
+pypinyin
+genanki
+opencc-python-reimplemented
+requests

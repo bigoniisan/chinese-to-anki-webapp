@@ -1,0 +1,29 @@
+# Node modules & build
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# Python environment
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Logs and debugging
+*.log
+*.sqlite3
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+docker-compose.dev.yml

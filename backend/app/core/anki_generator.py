@@ -1,0 +1,1 @@
+# Generates .apkg files for Anki using genanki.

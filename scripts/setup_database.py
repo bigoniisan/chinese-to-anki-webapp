@@ -1,0 +1,1 @@
+# Initializes a database, if used.

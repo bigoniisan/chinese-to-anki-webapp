@@ -1,0 +1,1 @@
+// Exports translations to Anki format.

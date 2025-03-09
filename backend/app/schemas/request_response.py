@@ -1,0 +1,1 @@
+# Defines API input and output formats using Pydantic.
