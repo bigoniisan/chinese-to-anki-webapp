@@ -7,6 +7,7 @@ services:
       - "8000:8000"
     volumes:
       - ./backend:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
     environment:
       - TRANSLATION_API_KEY=your-api-key
 
@@ -15,5 +16,7 @@ services:
     ports:
       - "5173:5173"
     volumes:
-      - ./frontend:/app
-      - /app/node_modules
+      - ./frontend:/app   # Mounts frontend code
+      - /app/node_modules # Prevents conflicts with host node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true # Enables file watching inside Docker
